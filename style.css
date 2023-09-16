@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #afc7ff;
+    color: #fff;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.contador{
+    font-size: 2em;
+    color: #333;
+
+}
+h1{
+    color: #333;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.text{
+    font-size: 1.3em;
+    color: #333;
+
+}
+.click{
+    border: 2px solid black;
+    padding: 10%;
+    cursor: pointer;
+    background-color: #efbf4d;
+    font-size: 2em;
+    border-radius: 20px;
+    user-select: none;
+}
+
+.stopwatch{
+    font-size: 2em;
+    color: #333;
+}
+
+#reset {
+visibility: hidden;
+margin-top: 10%;
+padding: 10%;
+border-radius: 5px;
+
+color: #fff;
+background-color: #efbf4d;
+cursor: pointer;
+}
